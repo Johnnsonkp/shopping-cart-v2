@@ -9,13 +9,18 @@
 #index h1{
     font-size: 6.5vw;
     margin-bottom: 0;
+    color: gray;
+    color: #C0C0C0;
+    color: #d3d3d3;
+    // color: #717790;
 }
 #index p{
-    margin-top: 20px;;
-    font-size: 2vw;
+    margin-top: 20px;
+    font-size: 1.4vw;
+    color: #fff;
 }
 #index .showcase{
-    border-top: 3px solid red;
+    // border-top: 3px solid red;
     height: 80vh;
     background: url('https://images.unsplash.com/photo-1601924994987-69e26d50dc26?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
     background-position: center center;
@@ -32,9 +37,55 @@
 }
 #index .text{
     position: absolute;
-    top: 200px;
+    top: 170px;
     left: 110px;
     z-index: 2;
-    border: solid 1px white;
-    background-color: rgba(17, 17, 17, 0.4);
+    // border: solid 5px white;
+    // border-radius: 5px;
+    // padding-left: 10px;
+    // padding-right: 10px;
+    // background-color: rgba(17, 17, 17, 0.4);
+    // border: 1px solid;
+    // padding: 10px;
+    // box-shadow: 5px 10px #888888;
+    text-shadow: 2px 2px black;
+    // background-image: linear-gradient(to left, rgba(165, 55, 253, 0.0), rgba(165, 55, 253, 0.9));
+    // background-image: linear-gradient(to left, rgba(165, 55, 253, 0.0),rgba(17, 17, 17, 0.4));
+    
+}
+#index .btns .sign-in{
+    z-index: 2;
+    position: absolute;
+    top: 540px;
+    left: 110px;
+    padding: 18px 70px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: green;
+    border: solid 1px green;
+}
+#index .btns .sign-up{
+    z-index: 2;
+    position: absolute;
+    top: 540px;
+    left: 340px;
+    padding: 18px 70px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: red;
+    border: solid 1px red;
+}
+#index .transparent{
+    z-index: 2;
+    position: absolute;
+    top: 260px;
+    left: 0px;
+    height: 40vh;
+    width: 100vw;
+    background-image: linear-gradient(to left, rgba(165, 55, 253, 0.0),rgba(17, 17, 17, 0.3));
+
 }
