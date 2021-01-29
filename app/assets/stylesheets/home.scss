@@ -99,3 +99,18 @@
     background-image: linear-gradient(to left, rgba(165, 55, 253, 0.0),rgba(17, 17, 17, 0.3));
 
 }
+
+#about{
+    height: 100vh;
+}
+#about h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-size: 3.1vw;
+    position: absolute;
+    top: 26%;
+    left: 5%;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
