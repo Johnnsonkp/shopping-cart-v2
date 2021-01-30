@@ -3,9 +3,10 @@
   <div class="container">
     <p id="notice"><%= notice %></p>
 
-    <h1>Shopping Cart</h1>
-
-    <table>
+      <h1>Shopping Cart</h1>
+    
+    <div class="table-content">
+      <table>
       <thead>
         <tr>
           <th>Title</th>
@@ -36,8 +37,11 @@
             <td><%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
           </tr>
         <% end %>
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+    </div>
+
+    
 
     <br>
 
